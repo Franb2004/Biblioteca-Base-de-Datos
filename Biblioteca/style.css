@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("Fondo2.jpg");
+    background-size: contain;   
+    font-family: 'calibri';
+}
+header {
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+menu {
+width: 900px;
+margin: 0 auto;
+}
+img {
+    width: 50px;
+}
+nav {
+    float: right;
+    margin-right: 20px;
+  
+}
+nav ul li {
+    list-style: none;
+    margin-left: 80px;
+    padding: 20px 0;
+    float: left;
+}
+nav ul li a {
+    text-decoration:  none;
+    color: #444;
+    font-weight: bold;
+}
+.formulario {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+.formulario h1 {
+    margin-left: 100px;
+    font-size: 22px;
+}
+.controls {
+    width: 100%;
+    background: #202020;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #444;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.formulario h4{
+    margin-left: 10px;
+}
+.boton{             
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url("Fondo2.jpg");
+}
+section{
+    width: 1000px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+table, th,td{
+    border:  1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+tr,th{
+    width: 200px;
+}
+th{
+    background-color: aqua;
+}
+.tablas{
+    width: 1000px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+menu {
+    background-color: white;
+    margin: 0 auto;
+    }
+    img {
+        width: 50px;
+    }
+    nav {
+        float: right;
+        margin-right: 20px;
+      
+    }
+    nav ul li {
+        list-style: none;
+        margin-left: 80px;
+        padding: 20px 0;
+        float: left;
+    }
+    nav ul li a {
+        text-decoration:  none;
+        color: rgb(2, 2, 2);
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+
